@@ -17,6 +17,12 @@
 		6814871423C46140006959F3 /* ITGHitTestView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814871323C46140006959F3 /* ITGHitTestView2Controller.m */; };
 		6814871723C4614F006959F3 /* ITGHitTestView3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814871623C4614F006959F3 /* ITGHitTestView3Controller.m */; };
 		6814871A23C461D7006959F3 /* BeyondBoundsOfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814871923C461D7006959F3 /* BeyondBoundsOfView.m */; };
+		6814872523C46F58006959F3 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814871D23C46F54006959F3 /* CView.m */; };
+		6814872623C46F58006959F3 /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814871E23C46F54006959F3 /* BView.m */; };
+		6814872723C46F58006959F3 /* EView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814871F23C46F55006959F3 /* EView.m */; };
+		6814872823C46F58006959F3 /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814872223C46F56006959F3 /* AView.m */; };
+		6814872923C46F58006959F3 /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814872323C46F56006959F3 /* DView.m */; };
+		6814872C23C46FF6006959F3 /* ITGBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6814872B23C46FF6006959F3 /* ITGBaseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,18 @@
 		6814871623C4614F006959F3 /* ITGHitTestView3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITGHitTestView3Controller.m; sourceTree = "<group>"; };
 		6814871823C461D7006959F3 /* BeyondBoundsOfView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeyondBoundsOfView.h; sourceTree = "<group>"; };
 		6814871923C461D7006959F3 /* BeyondBoundsOfView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeyondBoundsOfView.m; sourceTree = "<group>"; };
+		6814871B23C46F53006959F3 /* EView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EView.h; sourceTree = "<group>"; };
+		6814871C23C46F53006959F3 /* AView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		6814871D23C46F54006959F3 /* CView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		6814871E23C46F54006959F3 /* BView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		6814871F23C46F55006959F3 /* EView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EView.m; sourceTree = "<group>"; };
+		6814872023C46F55006959F3 /* DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
+		6814872123C46F56006959F3 /* CView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		6814872223C46F56006959F3 /* AView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		6814872323C46F56006959F3 /* DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
+		6814872423C46F58006959F3 /* BView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		6814872A23C46FF6006959F3 /* ITGBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITGBaseView.h; sourceTree = "<group>"; };
+		6814872B23C46FF6006959F3 /* ITGBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITGBaseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +100,18 @@
 				6814871623C4614F006959F3 /* ITGHitTestView3Controller.m */,
 				6814871823C461D7006959F3 /* BeyondBoundsOfView.h */,
 				6814871923C461D7006959F3 /* BeyondBoundsOfView.m */,
+				6814872A23C46FF6006959F3 /* ITGBaseView.h */,
+				6814872B23C46FF6006959F3 /* ITGBaseView.m */,
+				6814871C23C46F53006959F3 /* AView.h */,
+				6814872223C46F56006959F3 /* AView.m */,
+				6814872423C46F58006959F3 /* BView.h */,
+				6814871E23C46F54006959F3 /* BView.m */,
+				6814872123C46F56006959F3 /* CView.h */,
+				6814871D23C46F54006959F3 /* CView.m */,
+				6814872023C46F55006959F3 /* DView.h */,
+				6814872323C46F56006959F3 /* DView.m */,
+				6814871B23C46F53006959F3 /* EView.h */,
+				6814871F23C46F55006959F3 /* EView.m */,
 				681486FF23C460C1006959F3 /* Main.storyboard */,
 				6814870223C460C3006959F3 /* Assets.xcassets */,
 				6814870423C460C3006959F3 /* LaunchScreen.storyboard */,
@@ -161,12 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6814872523C46F58006959F3 /* CView.m in Sources */,
 				6814871723C4614F006959F3 /* ITGHitTestView3Controller.m in Sources */,
+				6814872723C46F58006959F3 /* EView.m in Sources */,
 				6814871423C46140006959F3 /* ITGHitTestView2Controller.m in Sources */,
+				6814872623C46F58006959F3 /* BView.m in Sources */,
 				681486FE23C460C1006959F3 /* ViewController.m in Sources */,
 				6814871A23C461D7006959F3 /* BeyondBoundsOfView.m in Sources */,
 				681486F823C460C1006959F3 /* AppDelegate.m in Sources */,
 				6814871123C46126006959F3 /* ITGHitTestView1Controller.m in Sources */,
+				6814872C23C46FF6006959F3 /* ITGBaseView.m in Sources */,
+				6814872923C46F58006959F3 /* DView.m in Sources */,
+				6814872823C46F58006959F3 /* AView.m in Sources */,
 				6814870923C460C3006959F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
